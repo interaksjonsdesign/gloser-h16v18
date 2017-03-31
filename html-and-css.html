@@ -6,26 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Gloser | HTML &amp; CSS</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/code-themes/github-gist-custom.css">
 </head>
 
 <body>
-    <h1>Gloser - HTML &amp; CSS</h1>
+    <div class="container">
 
-    <h2>What is it?</h2>
-    <p>Lorem ipsum</p>
+        <div class="page-header">
+            <h3><a href="index.html">Gloser</a></h3>
+            <h1>HTML &amp; CSS</h1>
+        </div>
 
-    <h2>Common code snippets</h2>
-    <p>Lorem ipsum</p>
+        <section>
+            <h3>Overview</h3>
+            <div class="container-fluid">
+                <div class="col-sm-6">
+                    <h5>HTML</h5>
+                    <p>HTML is the foundation behind all web pages. HTML is a simple language that consists of a series of tags. These tags are used to structure the contents of an HTML file. A typical website consists of many different HTML files.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h5>CSS</h5>
+                    <p>CSS is the language used to style HTML content. CSS code is used to describe how page content should be presented in different cases. CSS code should be kept in separate files to split between page content and presentation.</p>
+                </div>
+            </div>
+        </section>
 
-    <h2>Code reference</h2>
-    <p>Lorem ipsum</p>
+        <section>
+            <h3>Useful code snippets</h3>
 
-    <h2>Learning reference</h2>
-    <p>Lorem ipsum</p>
+            <h5>HTML | Simple document</h5>
+            <pre><code class="html">&lt;!DOCTYPE html&gt;
 
-    <h2>Tools &amp; Libraries</h2>
-    <p>Lorem ipsum</p>
+&lt;html lang="en"&gt;
 
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+
+    &lt;title&gt;page title&lt;/title&gt;
+
+    &lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class="container"&gt;
+        &lt;h1&gt;hello world!&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+
+            <h5>CSS | Set box-model to border-box</h5>
+            <pre><code class="css">*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}</code></pre>
+
+
+            <h5>CSS | Media query</h5>
+            <pre><code class="css">@media (max-width: 600px) {
+            
+  .sidebar {
+    display: none;
+  }
+  
+}</code></pre>
+
+
+
+        </section>
+
+        <section>
+            <h3>Reference</h3>
+            <ul>
+                <li>
+                    <a href="http://html5doctor.com/" target="_blank">Html5doctor (HTML)</a>
+                </li>
+                   <li>
+                    <a href="https://css-tricks.com/almanac/" target="_blank">CSS-tricks Almanac (CSS)</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Tools &amp; Libraries</h3>
+            <ul>
+                <li>
+                    <a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>
+                </li>
+                <li>
+                    <a href="https://html5boilerplate.com/" target="_blank">HTML5 Boilerplate</a>
+                </li>
+                <li>
+                    <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Learning resources</h3>
+            <ul>
+                <li>
+                    <a href="https://www.codecademy.com/learn/learn-html-css" target="_blank">Learn HTML &amp; CSS: Part I</a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+    </script>
 </body>
 
 </html>
