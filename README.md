@@ -1,14 +1,12 @@
-# Gloser (h16v18)
+# Gloser (h16-v18)
 
-Simple lexicon maintained by the interaction design class of 2016-2018. 
-This lexicom mainly contains web related topics.
+Gloser is a lexicon maintained by the interaction design class of 2016-2018 at the norwegian design school, Høyskolen Kristiania.
 
-## Outline
-Gloser contains pages on the following toppics:
+### Outline
+Gloser contains pages on the following topics:
 
-- HTML
-- CSS
+- HTML & CSS (HTML5 Boilerplate, Bootstrap, Normalize)
 - JavaScript
-- Front-end resources (HTML5 Boilerplate, Bootstrap, Normalize)
+- Node.js & NPM
 - Git
 - Command-line (Terminal)
