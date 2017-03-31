@@ -8,5 +8,6 @@ Gloser contains pages on the following topics:
 - HTML & CSS (HTML5 Boilerplate, Bootstrap, Normalize)
 - JavaScript
 - Node.js & NPM
+- Markdown
 - Git
 - Command-line (Terminal)
