@@ -24,6 +24,12 @@ pre {
     margin-bottom: 2em;
 }
 
+h3 img {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 4px 5px;
+}
+
 h5 {
     margin-top: 1.5em;
 }
