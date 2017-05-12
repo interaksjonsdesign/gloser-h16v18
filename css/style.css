@@ -17,10 +17,9 @@ h1 span {
     text-transform: uppercase;
 }
 
-h3 img {
-    width: 20px;
-    height: 20px;
-    margin-bottom: 5px;
+.container img {
+    margin-top: 50px;
+    width: 100%;
 }
 
 section {
