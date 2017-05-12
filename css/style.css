@@ -15,6 +15,11 @@ h1 span {
     text-transform: uppercase;
 }
 
+.container img {
+    margin-top: 50px;
+    width: 100%;
+}
+
 section {
     margin: 2em 0 5em;
 }
