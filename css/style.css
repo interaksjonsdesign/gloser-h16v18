@@ -6,7 +6,10 @@
           box-sizing: border-box;
 }
 
+// go go black
 body {
+  background-color: black; 
+  color: white; 
 }
 
 h1 span {
