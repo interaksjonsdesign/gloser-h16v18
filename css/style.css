@@ -1,12 +1,14 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
+// go go black
 body {
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 span {
@@ -25,7 +27,7 @@ section {
 }
 
 pre {
-    background-color: white;
+    background-color: #51e5b7;
     margin-bottom: 2em;
 }
 
@@ -37,4 +39,5 @@ h3 img {
 
 h5 {
     margin-top: 1.5em;
+    text-decoration: underline;
 }
